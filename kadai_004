@@ -1,0 +1,22 @@
+PS C:\Users\user01\git_challenge> git add .
+PS C:\Users\user01\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) c133694] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\user01\git_challenge> git add .
+PS C:\Users\user01\git_challenge> git commit -m "日本語訳を追記"
+[main a56556e] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\user01\git_challenge> git log
+commit a56556e6b6c06aa82078f6196fbd3a1d44fe221b (HEAD -> main)
+Author: ka2ki1 <keshupinglin@gmail.com>
+Date:   Sun Feb 11 20:28:55 2024 +0900
+
+    日本語訳を追記
+
+commit c133694c59ffbde4f94eba2e7af839d054dcd1b7
+Author: ka2ki1 <keshupinglin@gmail.com>
+Date:   Sun Feb 11 20:28:00 2024 +0900
+
+    hello_world.txtを追加
+PS C:\Users\user01\git_challenge> 
